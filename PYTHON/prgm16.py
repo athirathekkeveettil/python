@@ -1,0 +1,7 @@
+a=input("enter the numbers:")
+a=list(map(int,a.split(",")))
+print(a)
+Max=max(a)
+Min=min(a)
+print("Max=",Max)
+print("Min=",Min)
