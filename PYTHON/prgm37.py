@@ -1,3 +1,5 @@
+# write a function to print all even number from given list in the given order until you reach number 237 or end of list
+
 def even(a):
     for item in a:
         if(item==237):break
