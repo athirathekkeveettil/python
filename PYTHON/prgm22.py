@@ -1,3 +1,5 @@
+# program to determine frequency of alphabets in a word
+
 a=input("Enter a word:")
 print(a)
 b={}
