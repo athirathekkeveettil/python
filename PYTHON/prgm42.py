@@ -1,5 +1,13 @@
 # fibonacci number
 
+# a)without recursion
+
+n=int(input("enter number:"))
+a,b=0,1
+for i in range(1,n):
+    a,b=b,a+b
+print("Fibonacci Number:",a)
+
 # b)with recursion
 
 def fibonacci(n):
@@ -12,5 +20,4 @@ def fibonacci(n):
 
 
 n=int(input("enter number:"))
-print("Fibonacci Number:",(fibonacci(n)))
-
+print("Fibonacci Number:",(fibonacci(n-1)))
